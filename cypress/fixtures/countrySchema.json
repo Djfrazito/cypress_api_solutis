@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "required": [
+        "data"
+    ],
+    "properties": {
+        "data": {
+            "type": "object",
+            "required": [
+                "country",
+                "cases",
+                "confirmed",
+                "deaths",
+                "recovered",
+                "updated_at"
+            ],
+            "properties": {
+                "country": {
+                    "type": "string"
+                },
+                "confirmed": {
+                    "type": "integer"
+                },
+                "deaths": {
+                    "type": "integer"
+                },
+                "updated_at": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
